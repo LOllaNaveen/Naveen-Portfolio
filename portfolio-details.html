@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Naveen Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/portfolio/n.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio Details</li>
+          </ol>
+        </nav>
+        <h1>Project Details</h1>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/xampp_server.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/initialize .png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/login_page.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/Remote_user_page.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/Service_page_loader.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/Prediction.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/Graphical_representation.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/Charts.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/cmd.png" alt="">
+            </div>
+
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>DDoS Attack Detection by using Semi-Supervised Machine Learning</h2>
+              <p>
+                "DDoS Attack Detection Using Semi-Supervised Learning," focuses on identifying cyberattacks that disrupt
+                online services. A DDoS (Distributed Denial of Service) attack occurs when hackers flood a website or
+                server with excessive traffic, making it slow or completely inaccessible. These attacks can harm
+                businesses, disrupt services, and cause financial losses. Traditional methods of detecting DDoS attacks
+                rely on predefined rules and patterns, but cybercriminals continuously evolve their techniques, making
+                these methods less effective.
+              </p>
+              <p>
+                To solve this problem, your project uses semi-supervised machine learning, which combines both labeled
+                (known attack patterns) and unlabeled (unknown patterns) data. This approach allows the system to detect
+                new and evolving DDoS attacks more accurately. Your system collects network traffic data, such as IP
+                addresses, packet size, and transmission details, and analyzes it using machine learning algorithms like
+                Support Vector Machine (SVM), Naïve Bayes, and Logistic Regression. These models classify whether the
+                incoming traffic is normal or an attack.
+              </p>
+
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Effectively detects new and evolving DDoS attacks by leveraging semi-supervised learning,
+                    allowing it to identify threats beyond predefined patterns. By reducing the need for manual labeling
+                    of attack data, it streamlines the detection process and enhances efficiency. Additionally, the
+                    system operates in real-time, providing instant alerts to administrators, enabling quick responses
+                    to potential security threats.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="assets/img/masonry-portfolio/attack.png" class="testimonial-img" alt="">
+                  <h3>DDoS Attack</h3>
+                </div>
+              </div>
+
+              <p>
+                This project utilizes several key technologies to implement DDoS attack detection using semi-supervised
+                learning. These technologies include machine learning algorithms, Python, Django, MySQL, and XAMPP, each
+                playing a crucial role in different stages of development.
+              </p>
+
+              
+
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>Threat Detection</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Naveen Lolla</h3>
+      <p>Driven by a passion for innovation, I craft intuitive and efficient web solutions, transforming complex challenges into seamless user experiences.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href="www.linkedin.com/in/naveen-lolla-4605nb"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
